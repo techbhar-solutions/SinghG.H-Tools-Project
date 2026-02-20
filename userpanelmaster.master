@@ -9,8 +9,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/favicon.png" rel="apple-touch-icon" />
+    <link href="assets/img/newkhalsalogo-removebg-preview.png" rel="icon" />
+    <link href="assets/img/newkhalsalogo-removebg-preview.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
@@ -38,32 +38,18 @@
 
         <header id="header" class="header fixed-top">
 
-            <div class="topbar d-flex align-items-center dark-background">
-                <div class="container d-flex justify-content-center justify-content-md-between">
-                    <div class="contact-info d-flex align-items-center">
-                        <i class="bi bi-envelope d-flex align-items-center"><a
-                            href="mailto:contact@example.com">contact@example.com</a></i>
-                        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-                    </div>
-                    <div class="social-links d-none d-md-flex align-items-center">
+     
+           
 
-                        <a href="#!" class="facebook"><i class="bi bi-facebook"></i></a>
-
-
-                    </div>
-                </div>
-            </div>
-            <!-- End Top Bar -->
-
-            <div class="branding d-flex align-items-cente">
+            <div class="branding d-flex align-items-cente"  style="min-height: 100px; padding: 20px 0;">
 
                 <div class="container position-relative d-flex align-items-center justify-content-between">
-                    <a href="index.html" class="logo d-flex align-items-center">
-                        <!-- Uncomment the line below if you also wish to use an image logo -->
-                        <%--   <img src="assets/img/mechanic-tools-icon-free-vector.jpg" alt="Singh G.H Tols" 
-                  class="img-fluid "style="height:200px; width:250px;" >--%>
+                    <a href="Default.aspx" class="logo d-flex align-items-center">
+                        
+                          <img src="assets/img/newkhalsalogo-removebg-preview.png" alt="Singh G.H Tols" 
+                           class="img-fluid "style="height:auto; width:130px; object-fit: contain; max-height: none;" >
 
-                        <h2 class="sitename">Singh G.H Tools</h2>
+                     <%--   <h2 class="sitename">Khalsa G.H Tools</h2>--%>
                     </a>
 
                     <nav id="navmenu" class="navmenu">
@@ -96,9 +82,30 @@
              <div class="row">
 
                  <!-- Left Content (Take Proper Width) -->
+
                  <div class="col-lg-6 col-md-12">
+                     
+                     
+    <div class="brand-section py-4">
+        
+        <!-- Logo instead of Site Name -->
+        <h3 class="sitename mb-3">Khalsa G.H Tools</h3>
+
+        <p class="mb-4">
+            Premium Press Tools & Machine Components engineered for zero-failure performance. 
+            We don't just make parts; we build industrial reliability.
+        </p>
+
+        <div class="contact-info">
+            <p><i class="bi bi-geo-alt me-2"></i>#2747,st.no-4,new janta nagar,ATi Road, Ludhiana,Punjab-141003</p>
+            <p><a href="tel:7589493313" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><i class="bi bi-telephone me-2"></i>+91 7589493313</a></p>
+            <p><a href="mailto:Ghtools30@gmail.com" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><i class="bi bi-envelope me-2"></i>Ghtools30@gmail.com</a></p>
+        </div>
+    </div>
+                 </div>
+                 <%--<div class="col-lg-6 col-md-12">
                      <div class="brand-section py-4">
-                         <h3 class="sitename mb-3">Singh G.H Tools</h3>
+                         <h3 class="sitename mb-3">Khalsa G.H Tools</h3>
 
                          <p class="mb-4">
                              Premium Press Tools & Machine Components engineered for zero-failure performance. We don't just make parts; we build industrial reliability.
@@ -106,22 +113,26 @@
                          </p>
 
                          <div class="contact-info">
-                             <p><i class="bi bi-geo-alt me-2"></i>123 Creative Boulevard, Design District, NY 10012</p>
-                             <p><i class="bi bi-telephone me-2"></i>+1 (555) 987-6543</p>
-                             <p><i class="bi bi-envelope me-2"></i>hello@designstudio.com</p>
+                             <p><i class="bi bi-geo-alt me-2"></i>#2747,st.no-4,new janta nagar,ATi Road, Ludhiana,Punjab-141003</p>
+                             <p><i class="bi bi-telephone me-2"></i>+91 7589493313</p>
+                             <p><i class="bi bi-envelope me-2"></i>Ghtools30@gmail.com</p>
                          </div>
                      </div>
-                 </div>
+                 </div>--%>
 
                  <!-- Right Side Space Fill (Optional Content or Empty but Balanced) -->
                  <!-- Right Side Responsive Map -->
                  <div class="col-lg-6 col-md-12">
                      <div class="ratio ratio-4x3">
                          <iframe
-                             src="https://www.google.com/maps?q=Ludhiana,Punjab&output=embed"
+                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3421.9127943610615!2d75.8512!3d30.945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a847d1a9c6dbb%3A0x7c1e4fab4717e3f2!2sNew%20Azaad%20Nagar%2C%20New%20Prathap%20Nagar%2C%20Guru%20Preet%20Nagar%2C%20Ludhiana%2C%20Punjab%20141008!5e0!3m2!1sen!2sin!4v1771596884915!5m2!1sen!2sin"
                              style="border: 0;"
                              height:"300";
-                             width:"300";
+                             width:"300"
+                             allowfullscreen=""
+                             loading="lazy"
+                             referrerpolicy="no-referrer-when-downgrade"
+                             ;
                              
                              ></iframe>
                      </div>
@@ -137,12 +148,12 @@
                  <div class="row align-items-center">
 
                      <div class="col-lg-6 text-center text-lg-start">
-                        <a href="AdminPanel/login.aspx"> © Singh G.H Tools. All rights reserved.</a>
+                        <a href="AdminPanel/login.aspx"> © Khalsa G.H Tools. All rights reserved.</a>
                      </div>
 
                      <div class="col-lg-6 text-center text-lg-end">
                          Designed by 
-                 <a href="http://www.techbharsolutions.com">Techbharsolutions</a>
+                 <a href="http://www.techbharsolutions.com">techbharsolutions</a>
                      </div>
 
                  </div>
